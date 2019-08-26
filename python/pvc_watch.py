@@ -14,6 +14,7 @@ def main():
     unit.define('gibi = 2**30 = Gi')
     max_claims = unit.Quantity("150Gi")
     total_claims = unit.Quantity("0Gi")
+    unit.define('mibi = 2**30 = Mi')
 
     # configure client 
     config.load_kube_config()
